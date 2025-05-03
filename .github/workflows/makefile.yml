@@ -19,7 +19,7 @@ jobs:
         node-version: '18.x'
         cache: 'npm'
         
-    - uses: actions/hexlet-components/hello-from-hexlet-action@release
+    - uses: hexlet-components/hello-from-hexlet-action@release
         
     - name: setup
       run: make setup
